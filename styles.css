@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700;1000&display=swap');
+
+:root {
+    --background-color: #F3F4EE;
+    --navColor: #FAFAFA;
+    --grey: #929B9A;
+    --gray: #929b9a8a;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    border-bottom: 1px dashed var(--grey);
+    width: 100%;
+    text-align: center;
+    background: -webkit-linear-gradient(#009fff, #ec2f4b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.a{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: var(--background-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ec2f4b;
+    transition: ease-in-out 0.7s;
+}
+
+.a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #ec2f4b;
+}
+
+nav {
+    background-color: var(--navColor);
+    position: fixed;
+    width: 100px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+nav h1{
+    border-bottom: 1px dashed var(--grey);
+}
+
+nav i {
+    border-bottom-width: 100%;
+}
+
+#hero{
+    position: fixed;
+    left: 100px;
+    top: 0;
+    bottom: 0;
+}
+
+.image1{
+    width: 600px;
+    height: 100%;
+}
+
+#content{
+    padding: 40px;
+    text-align: center;
+    position: fixed;
+    left: 700px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#content p{
+    font-size: smaller;
+    color: var(--grey);
+    line-height: 28px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.img{
+    text-align: center;
+    font-size: 24px;
+    object-fit: contain;
+    padding: 20px;
+    color: #ec2f4b;
+    border-bottom: 1px dashed var(--gray);
+    width: 100%;
+}
+
+.img:hover{
+    cursor: pointer;
+    -webkit-filter: brightness(1.2);
+    color: var(--grey);
+}
+
+.img2{
+    border-top: 1px dashed var(--gray);
+}
+
+.img3{
+    border-bottom: none;
+}
+
+.banner{
+    font-size: 12px;
+    color: var(--navColor);
+    background-color: black;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+#lottie{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.email:hover{
+    color: #ec2f4b;
+    text-decoration: none;
+}
