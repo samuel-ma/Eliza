@@ -148,3 +148,11 @@ nav i {
     color: #ec2f4b;
     text-decoration: none;
 }
+
+.icon-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+}
