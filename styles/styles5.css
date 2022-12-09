@@ -1,0 +1,136 @@
+
+
+:root{
+    --primary: #ec2f4b;
+    --white: #eaf2ff;
+    --black: #333;
+    --grey: #929B9A;
+    --blue: #009fff;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 28px;
+    background-color: var(--white);
+    color: var(--black);
+    font-family: "Poppins";
+    font-size: smaller;
+}
+
+#card{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup{
+    display: flex;
+    align-items: flex-start;
+    width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.pop-img{
+    width: 240px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+h1{
+    margin: 5px;
+    font-size: 25px;
+    color: var(--primary);
+}
+
+p{
+    font-size: smaller;
+    color: var(--grey);
+}
+
+.right-side{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.samuel{
+    cursor: pointer;
+    font-family: "Roboto";
+    text-decoration: underline;
+    transition: ease-in-out 0.5s;
+    font-size: 18px;
+}
+
+.samuel:hover{
+    color: blue;
+}
+
+.cross{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mark{
+    color: var(--primary);
+}
+
+.x{
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.for{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.reach{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: smaller;
+}
+
+.direct{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: var(--primary);
+    color: white;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: smaller;
+}
+
+.sms{
+    margin-right: 5px;
+    font-size: 15px;
+}
